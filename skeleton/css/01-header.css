@@ -1,1 +1,78 @@
 /* PHASE 1: Header */
+header {
+  background: #f00;
+  font-family:Roboto;
+  font-size: 24px;
+  color:white;
+/*   padding: 10px; */
+  margin: 0px;
+/*   float: left; */
+
+}
+header h1 {
+  padding: 10px;
+  font-weight:700;
+/*    float:left; */
+  display: inline-block;
+  margin-left: 100px;
+  border-width: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+
+header ul {
+  font-weight: 500;
+  padding: 10px
+  display: inline-block;
+/*    float:right; */
+  box-sizing: border-box;
+  height: 200%;
+}
+
+nav {
+
+  float: right;
+  margin-right: 50px;
+
+}
+
+nav ul li {
+/*   line-height: 0px; */
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: -7.3px;
+  padding: 0px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+
+}
+
+
+
+ nav ul li a {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+  margin-right: px;
+  margin-left: px;
+  display: block;
+/*   border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px; */
+ }
+
+ nav ul li a:hover {
+   background: black;
+
+ }
+ header h1:hover {
+   background: black;
+ }
