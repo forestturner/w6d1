@@ -1,1 +1,53 @@
 /* PHASE 3: Layout */
+body {
+  background: #e6f7ff;
+}
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  width: 900px;
+  min-height: 200px;
+/*   margin-left: 100px; */
+/*   margin-right: 50px; */
+  border-color: #666666;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+ background-color: #f2f2f2;
+
+}
+
+
+.content:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 240px;
+  width: 1px;
+  background: #666666;
+}
+
+
+.content-sidebar {
+  display:block;
+
+/*   width: 33.65%; */
+  width: 200px;
+  float: left;
+  min-height: 200px;
+
+  padding: 20px;
+}
+
+.content-main {
+  padding: 20px;
+  width: 620px;
+  display: block;
+  float: right;
+  min-height: 200px;
+
+
+}

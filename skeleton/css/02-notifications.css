@@ -6,23 +6,12 @@
     width: 1px;
 	height: 1px;
 	background: black;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 	border-radius: 50%;
 }
 
  nav ul li a:hover  > .badge {
   background: red;
 }
-
-/*.dropbtn {
-    background-color: #4CAF50;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}*/
 
 .dropdown {
     position: relative;
@@ -39,17 +28,12 @@
 
 .dropdown-content a {
     color: black;
-    /*padding: auto ;*/
     text-decoration: none;
-    /*display: block;*/
+		font-size: 16px;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline-block;
 }
-
-/*.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}*/

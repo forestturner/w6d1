@@ -1,1 +1,29 @@
 /* PHASE 4: Footer */
+.footer {
+  width: 900px;
+  margin: 0 auto 50px auto;
+  background-color: #f2f2f2;
+  border-color:  #595959;
+  border-width: 1px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.footer-copy {
+  padding: 10px;
+  display: block;
+  float: left;
+}
+
+.footer-nav  {
+  /*display: inline-block;*/
+  /*list-style: none;*/
+  padding: 10px;
+  float:right;
+
+}
+ .footer-nav > li {
+   padding: 0 0 0 20px;
+   float: left;
+ }
